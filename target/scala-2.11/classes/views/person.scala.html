@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <link type="text/css" href="@routes.Assets.at("stylesheets/style.css")" rel="stylesheet" />
+        <script src="@routes.Assets.at("javascripts/nameCall.js")"></script>
+    </head>
+    <body>
+        <div class="background">
+            <div class="mid">
+                <div id="logo"></div>
+                <input type="text" id="textInput" onkeyup="showHint(this.value)">
+                <div id="dropdown">
+                    <ul id="txtHint">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
